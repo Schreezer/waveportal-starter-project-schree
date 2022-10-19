@@ -1,0 +1,52 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+.error{
+  color: red;
+  font-weight: 440;
+  justify-content: center;
+}
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  
+  padding: 8px;
+  border: 5;
+  border-radius: 5px;
+  width: 200px;
+  margin: auto;
+  margin-top: 18px;
+}
+.waves{
+  cursor: pointer;
+  margin-top: 18px;
+  padding: 8px;
+  border: 5;
+  border-radius: 5px;
+  justify-content: center;
+}
+.message {
+  margin: auto;
+  margin-top: 18px;
+}
